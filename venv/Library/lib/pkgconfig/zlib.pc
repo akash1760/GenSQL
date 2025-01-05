@@ -1,0 +1,13 @@
+prefix=F:/Projects/TEXTTOSQL/venv/Library
+exec_prefix=F:/Projects/TEXTTOSQL/venv/Library
+libdir=F:/Projects/TEXTTOSQL/venv/Library/lib
+sharedlibdir=F:/Projects/TEXTTOSQL/venv/Library/lib
+includedir=F:/Projects/TEXTTOSQL/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
